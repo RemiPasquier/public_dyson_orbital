@@ -1,0 +1,124 @@
+cpu-bind=MASK - cn1503, task  0  0 [1038663]: mask |BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|  set
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+cpu-bind=MASK - cn1503, task  0  0 [1038748]: mask |BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB||||--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn1503, task  1  1 [1038749]: mask |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------||||BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|  set
+[cn1503:1038749] MCW rank 1 bound to socket 1[core 96[hwt 0]], socket 1[core 97[hwt 0]], socket 1[core 98[hwt 0]], socket 1[core 99[hwt 0]], socket 1[core 100[hwt 0]], socket 1[core 101[hwt 0]], socket 1[core 102[hwt 0]], socket 1[core 103[hwt 0]], socket 1[core 104[hwt 0]], socket 1[core 105[hwt 0]], socket 1[core 106[hwt 0]], socket 1[core 107[hwt 0]], socket 1[core 108[hwt 0]], socket 1[core 109[hwt 0]], socket 1[core 110[hwt 0]], socket 1[core 111[hwt 0]], socket 1[core 112[hwt 0]], socket 1[core 113[hwt 0]], socket 1[core 114[hwt 0]], socket 1[core 115[hwt 0]], socket 1[core 116[hwt 0]], socket 1[core 117[hwt 0]], socket 1[core 118[hwt 0]], socket 1[core 119[hwt 0]], socket 1[core 120[hwt 0]], socket 1[core 121[hwt 0]], socket 1[core 122[hwt 0]], socket 1[core 123[hwt 0]], socket 1[core 124[hwt 0]], socket 1[core 125[hwt 0]], socket 1[core 126[hwt 0]], socket 1[core 127[hwt 0]], socket 1[core 128[hwt 0]], socket 1[core 129[hwt 0]], socket 1[core 130[hwt 0]], socket 1[core 131[hwt 0]], socket 1[core 132[hwt 0]], socket 1[core 133[hwt 0]], s: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B]
+[cn1503:1038749] MCW rank 1 bound to socket 1[core 96[hwt 0]], socket 1[core 97[hwt 0]], socket 1[core 98[hwt 0]], socket 1[core 99[hwt 0]], socket 1[core 100[hwt 0]], socket 1[core 101[hwt 0]], socket 1[core 102[hwt 0]], socket 1[core 103[hwt 0]], socket 1[core 104[hwt 0]], socket 1[core 105[hwt 0]], socket 1[core 106[hwt 0]], socket 1[core 107[hwt 0]], socket 1[core 108[hwt 0]], socket 1[core 109[hwt 0]], socket 1[core 110[hwt 0]], socket 1[core 111[hwt 0]], socket 1[core 112[hwt 0]], socket 1[core 113[hwt 0]], socket 1[core 114[hwt 0]], socket 1[core 115[hwt 0]], socket 1[core 116[hwt 0]], socket 1[core 117[hwt 0]], socket 1[core 118[hwt 0]], socket 1[core 119[hwt 0]], socket 1[core 120[hwt 0]], socket 1[core 121[hwt 0]], socket 1[core 122[hwt 0]], socket 1[core 123[hwt 0]], socket 1[core 124[hwt 0]], socket 1[core 125[hwt 0]], socket 1[core 126[hwt 0]], socket 1[core 127[hwt 0]], socket 1[core 128[hwt 0]], socket 1[core 129[hwt 0]], socket 1[core 130[hwt 0]], socket 1[core 131[hwt 0]], socket 1[core 132[hwt 0]], socket 1[core 133[hwt 0]], s: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B]
+[cn1503:1038748] MCW rank 0 bound to socket 0[core 0[hwt 0]], socket 0[core 1[hwt 0]], socket 0[core 2[hwt 0]], socket 0[core 3[hwt 0]], socket 0[core 4[hwt 0]], socket 0[core 5[hwt 0]], socket 0[core 6[hwt 0]], socket 0[core 7[hwt 0]], socket 0[core 8[hwt 0]], socket 0[core 9[hwt 0]], socket 0[core 10[hwt 0]], socket 0[core 11[hwt 0]], socket 0[core 12[hwt 0]], socket 0[core 13[hwt 0]], socket 0[core 14[hwt 0]], socket 0[core 15[hwt 0]], socket 0[core 16[hwt 0]], socket 0[core 17[hwt 0]], socket 0[core 18[hwt 0]], socket 0[core 19[hwt 0]], socket 0[core 20[hwt 0]], socket 0[core 21[hwt 0]], socket 0[core 22[hwt 0]], socket 0[core 23[hwt 0]], socket 0[core 24[hwt 0]], socket 0[core 25[hwt 0]], socket 0[core 26[hwt 0]], socket 0[core 27[hwt 0]], socket 0[core 28[hwt 0]], socket 0[core 29[hwt 0]], socket 0[core 30[hwt 0]], socket 0[core 31[hwt 0]], socket 0[core 32[hwt 0]], socket 0[core 33[hwt 0]], socket 0[core 34[hwt 0]], socket 0[core 35[hwt 0]], socket 0[core 36[hwt 0]], socket 0[core 37[hwt 0]], socket 0[core 38[hwt 0]], socket 0[core 39[hw: [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[cn1503:1038748] MCW rank 0 bound to socket 0[core 0[hwt 0]], socket 0[core 1[hwt 0]], socket 0[core 2[hwt 0]], socket 0[core 3[hwt 0]], socket 0[core 4[hwt 0]], socket 0[core 5[hwt 0]], socket 0[core 6[hwt 0]], socket 0[core 7[hwt 0]], socket 0[core 8[hwt 0]], socket 0[core 9[hwt 0]], socket 0[core 10[hwt 0]], socket 0[core 11[hwt 0]], socket 0[core 12[hwt 0]], socket 0[core 13[hwt 0]], socket 0[core 14[hwt 0]], socket 0[core 15[hwt 0]], socket 0[core 16[hwt 0]], socket 0[core 17[hwt 0]], socket 0[core 18[hwt 0]], socket 0[core 19[hwt 0]], socket 0[core 20[hwt 0]], socket 0[core 21[hwt 0]], socket 0[core 22[hwt 0]], socket 0[core 23[hwt 0]], socket 0[core 24[hwt 0]], socket 0[core 25[hwt 0]], socket 0[core 26[hwt 0]], socket 0[core 27[hwt 0]], socket 0[core 28[hwt 0]], socket 0[core 29[hwt 0]], socket 0[core 30[hwt 0]], socket 0[core 31[hwt 0]], socket 0[core 32[hwt 0]], socket 0[core 33[hwt 0]], socket 0[core 34[hwt 0]], socket 0[core 35[hwt 0]], socket 0[core 36[hwt 0]], socket 0[core 37[hwt 0]], socket 0[core 38[hwt 0]], socket 0[core 39[hw: [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+  * process grid (2, 1) will be used
+    cn1503                          
+    cn1503                          
+
+  * using 96 threads per process
+
+  ===============================================================
+    BAGEL - Freshly leavened quantum chemistry                   
+  ===============================================================
+
+  *** Geometry ***
+
+  { "atom" : "C", "xyz" : [     -8.053264,     -3.064321,      0.000010 ] },
+  { "atom" : "C", "xyz" : [     -6.284441,     -1.256533,      0.000008 ] },
+  { "atom" : "C", "xyz" : [     -3.707903,     -1.383545,      0.000003 ] },
+  { "atom" : "C", "xyz" : [     -7.261265,     -5.630055,      0.000009 ] },
+  { "atom" : "C", "xyz" : [     -4.744163,     -6.057374,      0.000005 ] },
+  { "atom" : "C", "xyz" : [     -2.997715,     -4.026219,      0.000002 ] },
+  { "atom" : "C", "xyz" : [     -1.543907,      0.021349,     -0.000001 ] },
+  { "atom" : "C", "xyz" : [      0.892946,     -0.657108,     -0.000005 ] },
+  { "atom" : "C", "xyz" : [     -0.467954,     -4.906753,     -0.000003 ] },
+  { "atom" : "C", "xyz" : [      1.494856,     -3.273963,     -0.000007 ] },
+  { "atom" : "C", "xyz" : [     -3.234922,     -8.392200,      0.000006 ] },
+  { "atom" : "C", "xyz" : [     -0.601808,     -7.683660,     -0.000007 ] },
+  { "atom" : "N", "xyz" : [     -3.975912,    -10.682956,      0.000009 ] },
+  { "atom" : "N", "xyz" : [      1.188606,     -9.293366,     -0.000012 ] },
+  { "atom" : "C", "xyz" : [     -2.102782,    -12.455765,      0.000002 ] },
+  { "atom" : "C", "xyz" : [      0.457939,    -11.766742,     -0.000007 ] },
+  { "atom" : "C", "xyz" : [     -2.760196,    -15.034136,      0.000006 ] },
+  { "atom" : "C", "xyz" : [     -0.930171,    -16.834933,      0.000000 ] },
+  { "atom" : "C", "xyz" : [      1.641079,    -16.143087,     -0.000010 ] },
+  { "atom" : "C", "xyz" : [      2.320398,    -13.667120,     -0.000013 ] },
+  { "atom" : "H", "xyz" : [     -4.727830,    -15.516659,      0.000013 ] },
+  { "atom" : "H", "xyz" : [     -1.437236,    -18.797973,      0.000003 ] },
+  { "atom" : "H", "xyz" : [      3.064741,    -17.586636,     -0.000014 ] },
+  { "atom" : "H", "xyz" : [      4.264501,    -13.097147,     -0.000021 ] },
+  { "atom" : "H", "xyz" : [      2.369634,      0.732837,     -0.000010 ] },
+  { "atom" : "H", "xyz" : [      3.420883,     -3.902896,     -0.000012 ] },
+  { "atom" : "H", "xyz" : [     -8.611930,     -7.140262,      0.000013 ] },
+  { "atom" : "H", "xyz" : [    -10.027747,     -2.601843,      0.000015 ] },
+
+  Number of auxiliary basis functions:     1820
+
+  Since a DF basis is specified, we compute 2- and 3-index integrals:
+    o Being stored without compression. Storage requirement is 7.381 GB
+       - 3-index ints prep                         0.02
+       - 3-index ints                              0.17
+       - 2-index ints                              0.03
+       - computing inverse                         0.79
+        elapsed time:        1.01 sec.
+
+
+  Number of basis functions:      712
+  Number of electrons      :      130
+
+
+    * METHOD: MOLECULE                             1.02
+
+       - Overlap matrix                            0.01
+       - Hcore matrix                              0.01
+       - Overlap orthog                            0.10
+
+  *** Open-shell HF ***
+
+  === Nuclear Repulsion ===
+  
+  1324.5114813717
+
+      * DIIS with orbital gradients will be used.
+
+  === UHF iteration (cc-pvtz) ===
+  
+      0       -794.74543667          0.01089997           1.15
+      1       -795.07466445          0.00681529           1.38
+      2       -795.11006458          0.00597984           1.37
+      3       -795.11170872          0.00608607           1.34
+      4       -795.10530914          0.00635628           1.30
+      5       -795.09367575          0.00673730           1.31
+      6       -795.07842350          0.00728606           1.31
+      7       -795.19350705          0.00019816           1.38
+      8       -795.19354956          0.00018970           1.55
+      9       -795.19364116          0.00005787           1.30
+     10       -795.19365180          0.00001782           1.35
+     11       -795.19365471          0.00000822           1.33
+     12       -795.19365533          0.00000559           1.29
+     13       -795.19365555          0.00000275           1.31
+     14       -795.19365564          0.00000177           1.37
+     15       -795.19365565          0.00000111           1.35
+     16       -795.19365566          0.00000122           1.33
+     17       -795.19365567          0.00000058           1.27
+     18       -795.19365567          0.00000050           1.36
+     19       -795.19365567          0.00000040           1.29
+     20       -795.19365568          0.00000031           1.30
+     21       -795.19365568          0.00000017           1.34
+     22       -795.19365568          0.00000018           1.29
+     23       -795.19365568          0.00000008           1.33
+     24       -795.19365568          0.00000003           1.59
+     25       -795.19365568          0.00000002           1.33
+     26       -795.19365568          0.00000001           1.32
+     27       -795.19365568          0.00000001           1.29
+  
+    * SCF iteration converged.
+
+    * S^2 (UHF) is 0.0000
+
+    * Permanent dipole moment:
+           (   -0.133237,     0.542130,     0.000000) a.u.
+
+
+    * METHOD: UHF                                 38.99
+
+Printing 66 non-relativistic spatial orbital densities at 90 x 111 x 33 = 329670 gridpoints. 
+
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 1074299.0 ON cn1503 CANCELLED AT 2026-02-24T11:32:25 ***
+slurmstepd: error: *** JOB 1074299 ON cn1503 CANCELLED AT 2026-02-24T11:32:25 ***

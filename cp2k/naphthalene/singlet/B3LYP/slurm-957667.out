@@ -1,0 +1,15 @@
+cpu-bind=MASK - cn0330, task  0  0 [1699127]: mask |BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|  set
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+cpu-bind=MASK - cn0330, task  0  0 [1699568]: mask |BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|--------|--------|--------|BBBBBBBB|--------|--------||||--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn0330, task  1  1 [1699569]: mask |--------|BBBBBBBB|--------|--------|--------|--------|BBBBBBBB|--------|--------|--------|BBBBBBBB|--------||||--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn0330, task  2  2 [1699570]: mask |--------|--------|BBBBBBBB|--------|BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|--------|--------||||--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn0330, task  3  3 [1699571]: mask |--------|--------|--------|--------|--------|BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|BBBBBBBB||||--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn0330, task  4  4 [1699572]: mask |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------||||BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|--------|--------|--------|BBBBBBBB|--------|--------|  set
+cpu-bind=MASK - cn0330, task  5  5 [1699573]: mask |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------||||--------|BBBBBBBB|--------|--------|--------|--------|BBBBBBBB|--------|--------|--------|BBBBBBBB|--------|  set
+cpu-bind=MASK - cn0330, task  6  6 [1699574]: mask |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------||||--------|--------|BBBBBBBB|--------|BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn0330, task  7  7 [1699575]: mask |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------||||--------|--------|--------|--------|--------|BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|BBBBBBBB|  set
+slurmstepd: error: *** STEP 957667.0 ON cn0330 CANCELLED AT 2026-02-12T16:48:57 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: cn0330: task 0: Exited with exit code 1
+srun: Terminating StepId=957667.0
+srun: error: cn0330: tasks 1-7: Killed

@@ -1,0 +1,483 @@
+cpu-bind=MASK - cn0414, task  0  0 [3454020]: mask |BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|BBBBBBBB|  set
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+cpu-bind=MASK - cn0414, task  0  0 [3454103]: mask |BBBBBBBB|BBBBBBBB|--------|BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|BBBBBBBB|BBBBBBBB|--------||||--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn0414, task  1  1 [3454104]: mask |--------|--------|BBBBBBBB|--------|BBBBBBBB|BBBBBBBB|--------|BBBBBBBB|BBBBBBBB|--------|--------|BBBBBBBB||||--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|  set
+cpu-bind=MASK - cn0414, task  2  2 [3454105]: mask |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------||||BBBBBBBB|BBBBBBBB|--------|BBBBBBBB|--------|--------|BBBBBBBB|--------|--------|BBBBBBBB|BBBBBBBB|--------|  set
+cpu-bind=MASK - cn0414, task  3  3 [3454106]: mask |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------||||--------|--------|BBBBBBBB|--------|BBBBBBBB|BBBBBBBB|--------|BBBBBBBB|BBBBBBBB|--------|--------|BBBBBBBB|  set
+[cn0414:3454103] MCW rank 0 bound to socket 0[core 0[hwt 0]], socket 0[core 1[hwt 0]], socket 0[core 2[hwt 0]], socket 0[core 3[hwt 0]], socket 0[core 4[hwt 0]], socket 0[core 5[hwt 0]], socket 0[core 6[hwt 0]], socket 0[core 7[hwt 0]], socket 0[core 8[hwt 0]], socket 0[core 9[hwt 0]], socket 0[core 10[hwt 0]], socket 0[core 11[hwt 0]], socket 0[core 12[hwt 0]], socket 0[core 13[hwt 0]], socket 0[core 14[hwt 0]], socket 0[core 15[hwt 0]], socket 0[core 24[hwt 0]], socket 0[core 25[hwt 0]], socket 0[core 26[hwt 0]], socket 0[core 27[hwt 0]], socket 0[core 28[hwt 0]], socket 0[core 29[hwt 0]], socket 0[core 30[hwt 0]], socket 0[core 31[hwt 0]], socket 0[core 48[hwt 0]], socket 0[core 49[hwt 0]], socket 0[core 50[hwt 0]], socket 0[core 51[hwt 0]], socket 0[core 52[hwt 0]], socket 0[core 53[hwt 0]], socket 0[core 54[hwt 0]], socket 0[core 55[hwt 0]], socket 0[core 72[hwt 0]], socket 0[core 73[hwt 0]], socket 0[core 74[hwt 0]], socket 0[core 75[hwt 0]], socket 0[core 76[hwt 0]], socket 0[core 77[hwt 0]], socket 0[core 78[hwt 0]], socket 0[core 79[hw: [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/./././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[cn0414:3454103] MCW rank 0 bound to socket 0[core 0[hwt 0]], socket 0[core 1[hwt 0]], socket 0[core 2[hwt 0]], socket 0[core 3[hwt 0]], socket 0[core 4[hwt 0]], socket 0[core 5[hwt 0]], socket 0[core 6[hwt 0]], socket 0[core 7[hwt 0]], socket 0[core 8[hwt 0]], socket 0[core 9[hwt 0]], socket 0[core 10[hwt 0]], socket 0[core 11[hwt 0]], socket 0[core 12[hwt 0]], socket 0[core 13[hwt 0]], socket 0[core 14[hwt 0]], socket 0[core 15[hwt 0]], socket 0[core 24[hwt 0]], socket 0[core 25[hwt 0]], socket 0[core 26[hwt 0]], socket 0[core 27[hwt 0]], socket 0[core 28[hwt 0]], socket 0[core 29[hwt 0]], socket 0[core 30[hwt 0]], socket 0[core 31[hwt 0]], socket 0[core 48[hwt 0]], socket 0[core 49[hwt 0]], socket 0[core 50[hwt 0]], socket 0[core 51[hwt 0]], socket 0[core 52[hwt 0]], socket 0[core 53[hwt 0]], socket 0[core 54[hwt 0]], socket 0[core 55[hwt 0]], socket 0[core 72[hwt 0]], socket 0[core 73[hwt 0]], socket 0[core 74[hwt 0]], socket 0[core 75[hwt 0]], socket 0[core 76[hwt 0]], socket 0[core 77[hwt 0]], socket 0[core 78[hwt 0]], socket 0[core 79[hw: [B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/./././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[cn0414:3454106] MCW rank 3 bound to socket 1[core 112[hwt 0]], socket 1[core 113[hwt 0]], socket 1[core 114[hwt 0]], socket 1[core 115[hwt 0]], socket 1[core 116[hwt 0]], socket 1[core 117[hwt 0]], socket 1[core 118[hwt 0]], socket 1[core 119[hwt 0]], socket 1[core 128[hwt 0]], socket 1[core 129[hwt 0]], socket 1[core 130[hwt 0]], socket 1[core 131[hwt 0]], socket 1[core 132[hwt 0]], socket 1[core 133[hwt 0]], socket 1[core 134[hwt 0]], socket 1[core 135[hwt 0]], socket 1[core 136[hwt 0]], socket 1[core 137[hwt 0]], socket 1[core 138[hwt 0]], socket 1[core 139[hwt 0]], socket 1[core 140[hwt 0]], socket 1[core 141[hwt 0]], socket 1[core 142[hwt 0]], socket 1[core 143[hwt 0]], socket 1[core 152[hwt 0]], socket 1[core 153[hwt 0]], socket 1[core 154[hwt 0]], socket 1[core 155[hwt 0]], socket 1[core 156[hwt 0]], socket 1[core 157[hwt 0]], socket 1[core 158[hwt 0]], socket 1[core 159[hwt 0]], socket 1[core 160[hwt 0]], socket 1[core 161[hwt 0]], socket 1[core 162[hwt 0]], socket 1[core 163[hwt 0]], socket 1[core 164[hwt 0]], socket 1[core 165[hwt 0]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B]
+[cn0414:3454106] MCW rank 3 bound to socket 1[core 112[hwt 0]], socket 1[core 113[hwt 0]], socket 1[core 114[hwt 0]], socket 1[core 115[hwt 0]], socket 1[core 116[hwt 0]], socket 1[core 117[hwt 0]], socket 1[core 118[hwt 0]], socket 1[core 119[hwt 0]], socket 1[core 128[hwt 0]], socket 1[core 129[hwt 0]], socket 1[core 130[hwt 0]], socket 1[core 131[hwt 0]], socket 1[core 132[hwt 0]], socket 1[core 133[hwt 0]], socket 1[core 134[hwt 0]], socket 1[core 135[hwt 0]], socket 1[core 136[hwt 0]], socket 1[core 137[hwt 0]], socket 1[core 138[hwt 0]], socket 1[core 139[hwt 0]], socket 1[core 140[hwt 0]], socket 1[core 141[hwt 0]], socket 1[core 142[hwt 0]], socket 1[core 143[hwt 0]], socket 1[core 152[hwt 0]], socket 1[core 153[hwt 0]], socket 1[core 154[hwt 0]], socket 1[core 155[hwt 0]], socket 1[core 156[hwt 0]], socket 1[core 157[hwt 0]], socket 1[core 158[hwt 0]], socket 1[core 159[hwt 0]], socket 1[core 160[hwt 0]], socket 1[core 161[hwt 0]], socket 1[core 162[hwt 0]], socket 1[core 163[hwt 0]], socket 1[core 164[hwt 0]], socket 1[core 165[hwt 0]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B]
+[cn0414:3454104] MCW rank 1 bound to socket 0[core 16[hwt 0]], socket 0[core 17[hwt 0]], socket 0[core 18[hwt 0]], socket 0[core 19[hwt 0]], socket 0[core 20[hwt 0]], socket 0[core 21[hwt 0]], socket 0[core 22[hwt 0]], socket 0[core 23[hwt 0]], socket 0[core 32[hwt 0]], socket 0[core 33[hwt 0]], socket 0[core 34[hwt 0]], socket 0[core 35[hwt 0]], socket 0[core 36[hwt 0]], socket 0[core 37[hwt 0]], socket 0[core 38[hwt 0]], socket 0[core 39[hwt 0]], socket 0[core 40[hwt 0]], socket 0[core 41[hwt 0]], socket 0[core 42[hwt 0]], socket 0[core 43[hwt 0]], socket 0[core 44[hwt 0]], socket 0[core 45[hwt 0]], socket 0[core 46[hwt 0]], socket 0[core 47[hwt 0]], socket 0[core 56[hwt 0]], socket 0[core 57[hwt 0]], socket 0[core 58[hwt 0]], socket 0[core 59[hwt 0]], socket 0[core 60[hwt 0]], socket 0[core 61[hwt 0]], socket 0[core 62[hwt 0]], socket 0[core 63[hwt 0]], socket 0[core 64[hwt 0]], socket 0[core 65[hwt 0]], socket 0[core 66[hwt 0]], socket 0[core 67[hwt 0]], socket 0[core 68[hwt 0]], socket 0[core 69[hwt 0]], socket 0[core 70[hwt 0]], socket 0[: [././././././././././././././././B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[cn0414:3454105] MCW rank 2 bound to socket 1[core 96[hwt 0]], socket 1[core 97[hwt 0]], socket 1[core 98[hwt 0]], socket 1[core 99[hwt 0]], socket 1[core 100[hwt 0]], socket 1[core 101[hwt 0]], socket 1[core 102[hwt 0]], socket 1[core 103[hwt 0]], socket 1[core 104[hwt 0]], socket 1[core 105[hwt 0]], socket 1[core 106[hwt 0]], socket 1[core 107[hwt 0]], socket 1[core 108[hwt 0]], socket 1[core 109[hwt 0]], socket 1[core 110[hwt 0]], socket 1[core 111[hwt 0]], socket 1[core 120[hwt 0]], socket 1[core 121[hwt 0]], socket 1[core 122[hwt 0]], socket 1[core 123[hwt 0]], socket 1[core 124[hwt 0]], socket 1[core 125[hwt 0]], socket 1[core 126[hwt 0]], socket 1[core 127[hwt 0]], socket 1[core 144[hwt 0]], socket 1[core 145[hwt 0]], socket 1[core 146[hwt 0]], socket 1[core 147[hwt 0]], socket 1[core 148[hwt 0]], socket 1[core 149[hwt 0]], socket 1[core 150[hwt 0]], socket 1[core 151[hwt 0]], socket 1[core 168[hwt 0]], socket 1[core 169[hwt 0]], socket 1[core 170[hwt 0]], socket 1[core 171[hwt 0]], socket 1[core 172[hwt 0]], socket 1[core 173[hwt 0]], s: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/./././././././.]
+[cn0414:3454104] MCW rank 1 bound to socket 0[core 16[hwt 0]], socket 0[core 17[hwt 0]], socket 0[core 18[hwt 0]], socket 0[core 19[hwt 0]], socket 0[core 20[hwt 0]], socket 0[core 21[hwt 0]], socket 0[core 22[hwt 0]], socket 0[core 23[hwt 0]], socket 0[core 32[hwt 0]], socket 0[core 33[hwt 0]], socket 0[core 34[hwt 0]], socket 0[core 35[hwt 0]], socket 0[core 36[hwt 0]], socket 0[core 37[hwt 0]], socket 0[core 38[hwt 0]], socket 0[core 39[hwt 0]], socket 0[core 40[hwt 0]], socket 0[core 41[hwt 0]], socket 0[core 42[hwt 0]], socket 0[core 43[hwt 0]], socket 0[core 44[hwt 0]], socket 0[core 45[hwt 0]], socket 0[core 46[hwt 0]], socket 0[core 47[hwt 0]], socket 0[core 56[hwt 0]], socket 0[core 57[hwt 0]], socket 0[core 58[hwt 0]], socket 0[core 59[hwt 0]], socket 0[core 60[hwt 0]], socket 0[core 61[hwt 0]], socket 0[core 62[hwt 0]], socket 0[core 63[hwt 0]], socket 0[core 64[hwt 0]], socket 0[core 65[hwt 0]], socket 0[core 66[hwt 0]], socket 0[core 67[hwt 0]], socket 0[core 68[hwt 0]], socket 0[core 69[hwt 0]], socket 0[core 70[hwt 0]], socket 0[: [././././././././././././././././B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[cn0414:3454105] MCW rank 2 bound to socket 1[core 96[hwt 0]], socket 1[core 97[hwt 0]], socket 1[core 98[hwt 0]], socket 1[core 99[hwt 0]], socket 1[core 100[hwt 0]], socket 1[core 101[hwt 0]], socket 1[core 102[hwt 0]], socket 1[core 103[hwt 0]], socket 1[core 104[hwt 0]], socket 1[core 105[hwt 0]], socket 1[core 106[hwt 0]], socket 1[core 107[hwt 0]], socket 1[core 108[hwt 0]], socket 1[core 109[hwt 0]], socket 1[core 110[hwt 0]], socket 1[core 111[hwt 0]], socket 1[core 120[hwt 0]], socket 1[core 121[hwt 0]], socket 1[core 122[hwt 0]], socket 1[core 123[hwt 0]], socket 1[core 124[hwt 0]], socket 1[core 125[hwt 0]], socket 1[core 126[hwt 0]], socket 1[core 127[hwt 0]], socket 1[core 144[hwt 0]], socket 1[core 145[hwt 0]], socket 1[core 146[hwt 0]], socket 1[core 147[hwt 0]], socket 1[core 148[hwt 0]], socket 1[core 149[hwt 0]], socket 1[core 150[hwt 0]], socket 1[core 151[hwt 0]], socket 1[core 168[hwt 0]], socket 1[core 169[hwt 0]], socket 1[core 170[hwt 0]], socket 1[core 171[hwt 0]], socket 1[core 172[hwt 0]], socket 1[core 173[hwt 0]], s: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/././././././././././././././././B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/./././././././.]
+  * process grid (2, 2) will be used
+    cn0414                          
+    cn0414                          
+    cn0414                          
+    cn0414                          
+
+  * using 48 threads per process
+
+  ===============================================================
+    BAGEL - Freshly leavened quantum chemistry                   
+  ===============================================================
+
+  *** Geometry ***
+
+  { "atom" : "C", "xyz" : [     -8.053264,     -3.064321,      0.000010 ] },
+  { "atom" : "C", "xyz" : [     -6.284441,     -1.256533,      0.000008 ] },
+  { "atom" : "C", "xyz" : [     -3.707903,     -1.383545,      0.000003 ] },
+  { "atom" : "C", "xyz" : [     -7.261265,     -5.630055,      0.000009 ] },
+  { "atom" : "C", "xyz" : [     -4.744163,     -6.057374,      0.000005 ] },
+  { "atom" : "C", "xyz" : [     -2.997715,     -4.026219,      0.000002 ] },
+  { "atom" : "C", "xyz" : [     -1.543907,      0.021349,     -0.000001 ] },
+  { "atom" : "C", "xyz" : [      0.892946,     -0.657108,     -0.000005 ] },
+  { "atom" : "C", "xyz" : [     -0.467954,     -4.906753,     -0.000003 ] },
+  { "atom" : "C", "xyz" : [      1.494856,     -3.273963,     -0.000007 ] },
+  { "atom" : "C", "xyz" : [     -3.234922,     -8.392200,      0.000006 ] },
+  { "atom" : "C", "xyz" : [     -0.601808,     -7.683660,     -0.000007 ] },
+  { "atom" : "N", "xyz" : [     -3.975912,    -10.682956,      0.000009 ] },
+  { "atom" : "N", "xyz" : [      1.188606,     -9.293366,     -0.000012 ] },
+  { "atom" : "C", "xyz" : [     -2.102782,    -12.455765,      0.000002 ] },
+  { "atom" : "C", "xyz" : [      0.457939,    -11.766742,     -0.000007 ] },
+  { "atom" : "C", "xyz" : [     -2.760196,    -15.034136,      0.000006 ] },
+  { "atom" : "C", "xyz" : [     -0.930171,    -16.834933,      0.000000 ] },
+  { "atom" : "C", "xyz" : [      1.641079,    -16.143087,     -0.000010 ] },
+  { "atom" : "C", "xyz" : [      2.320398,    -13.667120,     -0.000013 ] },
+  { "atom" : "H", "xyz" : [     -4.727830,    -15.516659,      0.000013 ] },
+  { "atom" : "H", "xyz" : [     -1.437236,    -18.797973,      0.000003 ] },
+  { "atom" : "H", "xyz" : [      3.064741,    -17.586636,     -0.000014 ] },
+  { "atom" : "H", "xyz" : [      4.264501,    -13.097147,     -0.000021 ] },
+  { "atom" : "H", "xyz" : [      2.369634,      0.732837,     -0.000010 ] },
+  { "atom" : "H", "xyz" : [      3.420883,     -3.902896,     -0.000012 ] },
+  { "atom" : "H", "xyz" : [     -8.611930,     -7.140262,      0.000013 ] },
+  { "atom" : "H", "xyz" : [    -10.027747,     -2.601843,      0.000015 ] },
+
+  Number of auxiliary basis functions:     1820
+
+  Since a DF basis is specified, we compute 2- and 3-index integrals:
+    o Being stored without compression. Storage requirement is 7.381 GB
+       - 3-index ints prep                         0.01
+       - 3-index ints                              0.12
+       - 2-index ints                              0.04
+       - computing inverse                         0.43
+        elapsed time:        0.60 sec.
+
+
+  Number of basis functions:      712
+  Number of electrons      :      130
+
+
+    * METHOD: MOLECULE                             0.62
+
+       - Overlap matrix                            0.00
+       - Hcore matrix                              0.01
+       - Overlap orthog                            0.15
+
+  *** Open-shell HF ***
+
+  === Nuclear Repulsion ===
+  
+  1324.5114813717
+
+      * DIIS with orbital gradients will be used.
+
+  === UHF iteration (cc-pvtz) ===
+  
+      0       -794.74543667          0.01089997           0.76
+      1       -795.07466445          0.00681529           0.87
+      2       -795.11006458          0.00597984           0.86
+      3       -795.11170872          0.00608607           1.29
+      4       -795.10530914          0.00635628           0.99
+      5       -795.09367575          0.00673730           0.89
+      6       -795.07842350          0.00728606           0.96
+      7       -795.19350705          0.00019816           0.88
+      8       -795.19354956          0.00018970           0.88
+      9       -795.19364116          0.00005787           0.92
+     10       -795.19365180          0.00001782           0.90
+     11       -795.19365472          0.00000822           0.88
+     12       -795.19365533          0.00000559           0.87
+     13       -795.19365555          0.00000275           0.95
+     14       -795.19365564          0.00000177           0.87
+     15       -795.19365566          0.00000111           1.00
+     16       -795.19365566          0.00000122           1.06
+     17       -795.19365567          0.00000058           0.87
+     18       -795.19365567          0.00000050           0.86
+     19       -795.19365568          0.00000040           0.86
+     20       -795.19365568          0.00000031           0.92
+     21       -795.19365568          0.00000017           0.87
+     22       -795.19365568          0.00000018           1.04
+     23       -795.19365568          0.00000008           0.90
+     24       -795.19365568          0.00000003           0.87
+     25       -795.19365568          0.00000002           0.98
+     26       -795.19365568          0.00000001           1.09
+     27       -795.19365568          0.00000001           0.89
+  
+    * SCF iteration converged.
+
+    * S^2 (UHF) is 0.0000
+
+    * Permanent dipole moment:
+           (   -0.133237,     0.542130,     0.000000) a.u.
+
+
+    * METHOD: UHF                                 27.07
+
+Printing 66 non-relativistic spatial orbital densities at 90 x 111 x 33 = 329670 gridpoints. 
+
+Orbital printout computation finished; generating output files.
+Sum of all gridpoints for orbital 1 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 2 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 3 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 4 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 5 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 6 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 7 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 8 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 9 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 10 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 11 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 12 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 13 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 14 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 15 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 16 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 17 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 18 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 19 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 20 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 21 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 22 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 23 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 24 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 25 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 26 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 27 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 28 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 29 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 30 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 31 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 32 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 33 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 34 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 35 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 36 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 37 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 38 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 39 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 40 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 41 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 42 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 43 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 44 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 45 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 46 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 47 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 48 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 49 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 50 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 51 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 52 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 53 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 54 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 55 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 56 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 57 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 58 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 59 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 60 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 61 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 62 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 63 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 64 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for orbital 65 = 0.00000.  Integrated orbital density = 0.00000.
+Sum of all gridpoints for total density = 0.00000.  Total integrated density = 0.00000.
+
+    * METHOD: MOPRINT                            185.99
+
+
+    * METHOD: PRINT                                0.26
+
+  ---------------------------
+      CASSCF calculation     
+  ---------------------------
+
+    * nstate   :      1
+    * nclosed  :     58
+    * nact     :     14
+    * nvirt    :    640
+  === CASSCF iteration (cc-pvtz) ===
+
+    * Using the second-order algorithm
+
+      0  0      -795.19366910     1.53e-07     34.58
+
+         res : 5.75e-04   lamb: 1.58e+00   eps : -4.19e-05   step: 9.98e-01    0.24
+         res : 1.72e-05   lamb: 6.06e+00   eps : -3.13e-05   step: 2.05e-01    0.24
+      1  0      -795.19367806     6.06e-07     38.41
+
+         res : 1.72e-03   lamb: 2.27e+00   eps : -1.34e-04   step: 7.89e-01    0.28
+         res : 1.11e-03   lamb: 4.04e+00   eps : -1.11e-04   step: 3.90e-01    0.24
+         res : 1.74e-04   lamb: 4.37e+00   eps : -1.08e-04   step: 3.51e-01    0.24
+         res : 2.52e-04   lamb: 4.63e+00   eps : -1.06e-04   step: 3.24e-01    0.25
+         res : 4.48e-05   lamb: 5.02e+00   eps : -1.03e-04   step: 2.88e-01    0.25
+         res : 3.05e-05   lamb: 5.15e+00   eps : -1.02e-04   step: 2.78e-01    0.26
+         res : 1.44e-05   lamb: 5.36e+00   eps : -1.01e-04   step: 2.62e-01    0.31
+      2  0      -795.19373886     2.95e-06     45.28
+
+         res : 7.62e-04   lamb: 1.71e+00   eps : -8.44e-04   step: 9.89e-01    0.25
+         res : 9.45e-04   lamb: 1.80e+00   eps : -8.54e-04   step: 9.67e-01    0.38
+         res : 4.68e-03   lamb: 1.86e+00   eps : -8.44e-04   step: 9.34e-01    0.25
+         res : 6.82e-04   lamb: 1.91e+00   eps : -8.32e-04   step: 8.95e-01    0.25
+         res : 9.99e-04   lamb: 1.93e+00   eps : -8.28e-04   step: 8.81e-01    0.25
+         res : 3.38e-04   lamb: 1.95e+00   eps : -8.25e-04   step: 8.74e-01    0.26
+         res : 1.25e-04   lamb: 1.95e+00   eps : -8.25e-04   step: 8.73e-01    0.25
+         res : 1.28e-04   lamb: 1.95e+00   eps : -8.25e-04   step: 8.73e-01    0.25
+         res : 7.36e-05   lamb: 1.95e+00   eps : -8.25e-04   step: 8.73e-01    0.25
+      3  0      -795.19797420     1.03e-04     47.20
+
+         res : 1.57e-02   lamb: 1.00e+00   eps : -6.27e-03   step: 5.09e-01    0.24
+         res : 1.59e-02   lamb: 1.00e+00   eps : -7.24e-03   step: 6.11e-01    0.24
+         res : 3.19e-02   lamb: 1.00e+00   eps : -7.44e-03   step: 6.54e-01    0.24
+         res : 3.37e-02   lamb: 1.00e+00   eps : -7.52e-03   step: 6.82e-01    0.24
+         res : 1.55e-02   lamb: 1.00e+00   eps : -7.57e-03   step: 7.06e-01    0.25
+         res : 1.46e-02   lamb: 1.00e+00   eps : -7.59e-03   step: 7.17e-01    0.34
+         res : 6.59e-03   lamb: 1.00e+00   eps : -7.59e-03   step: 7.21e-01    0.26
+         res : 5.07e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.23e-01    0.24
+         res : 2.83e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 2.30e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.41
+         res : 1.89e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 2.01e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 1.63e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 1.24e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.45
+         res : 1.02e-03   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 7.02e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 6.73e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.25
+         res : 4.91e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 5.56e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 4.28e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 4.04e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.26
+         res : 3.22e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 3.00e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 2.61e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 2.14e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.25
+         res : 2.18e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 1.64e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 1.53e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 1.27e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.31
+         res : 1.19e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 1.04e-04   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+         res : 8.61e-05   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.27
+         res : 7.11e-05   lamb: 1.00e+00   eps : -7.60e-03   step: 7.24e-01    0.24
+      4  0      -795.20756856     1.62e-04     57.40
+
+         res : 2.19e-02   lamb: 1.00e+00   eps : -1.77e-03   step: 1.37e-01    0.27
+         res : 1.87e-02   lamb: 1.00e+00   eps : -2.12e-03   step: 1.67e-01    0.24
+         res : 1.71e-02   lamb: 1.00e+00   eps : -2.18e-03   step: 1.70e-01    0.41
+         res : 1.16e-02   lamb: 1.00e+00   eps : -2.21e-03   step: 1.72e-01    0.24
+         res : 6.45e-03   lamb: 1.00e+00   eps : -2.22e-03   step: 1.74e-01    0.27
+         res : 4.63e-03   lamb: 1.00e+00   eps : -2.22e-03   step: 1.75e-01    0.28
+         res : 4.33e-03   lamb: 1.00e+00   eps : -2.23e-03   step: 1.77e-01    0.24
+         res : 2.76e-03   lamb: 1.00e+00   eps : -2.23e-03   step: 1.77e-01    0.27
+         res : 2.13e-03   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.26
+         res : 1.47e-03   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.24
+         res : 1.12e-03   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 7.69e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.52
+         res : 6.25e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.24
+         res : 5.83e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.42
+         res : 5.36e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 4.17e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 3.77e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 3.96e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.35
+         res : 3.35e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.24
+         res : 2.47e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.24
+         res : 2.15e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.24
+         res : 1.89e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.41
+         res : 1.70e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 1.54e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 1.43e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.26
+         res : 1.49e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 1.04e-04   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 9.06e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.24
+         res : 9.10e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.39
+         res : 7.07e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 7.24e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.26
+         res : 7.23e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 5.01e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.27
+         res : 4.79e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 4.12e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 3.86e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 3.00e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.36
+         res : 3.63e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.40e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.70e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.24e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.34e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.24
+         res : 2.02e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.24e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.03e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.12e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.00e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.31e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.24e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+         res : 2.04e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.26
+         res : 1.82e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.36
+         res : 1.76e-05   lamb: 1.00e+00   eps : -2.23e-03   step: 1.78e-01    0.25
+      5  0      -795.20902553     3.70e-05     63.16
+
+         res : 7.23e-03   lamb: 1.00e+00   eps : -9.62e-05   step: 1.07e-01    0.24
+         res : 8.90e-03   lamb: 1.05e+00   eps : -1.93e-04   step: 9.96e-01    0.24
+         res : 7.87e-03   lamb: 1.18e+00   eps : -2.05e-04   step: 9.99e-01    0.24
+         res : 4.30e-03   lamb: 1.35e+00   eps : -2.09e-04   step: 8.30e-01    0.49
+         res : 3.49e-03   lamb: 1.52e+00   eps : -2.11e-04   step: 6.32e-01    0.24
+         res : 2.45e-03   lamb: 1.50e+00   eps : -2.13e-04   step: 6.34e-01    0.28
+         res : 1.86e-03   lamb: 1.50e+00   eps : -2.14e-04   step: 6.18e-01    0.34
+         res : 1.20e-03   lamb: 1.51e+00   eps : -2.15e-04   step: 5.96e-01    0.24
+         res : 1.00e-03   lamb: 1.54e+00   eps : -2.16e-04   step: 5.57e-01    0.24
+         res : 9.67e-04   lamb: 1.62e+00   eps : -2.18e-04   step: 4.86e-01    0.24
+         res : 1.49e-03   lamb: 1.86e+00   eps : -2.30e-04   step: 3.38e-01    0.50
+         res : 1.53e-03   lamb: 2.31e+00   eps : -2.61e-04   step: 1.99e-01    0.25
+         res : 8.94e-04   lamb: 2.99e+00   eps : -3.19e-04   step: 1.14e-01    0.25
+         res : 3.81e-04   lamb: 4.04e+00   eps : -4.12e-04   step: 6.75e-02    0.39
+         res : 2.04e-04   lamb: 4.88e+00   eps : -4.87e-04   step: 5.25e-02    0.25
+         res : 8.84e-05   lamb: 5.26e+00   eps : -5.21e-04   step: 4.83e-02    0.25
+         res : 3.85e-05   lamb: 5.34e+00   eps : -5.27e-04   step: 4.75e-02    0.25
+         res : 2.77e-05   lamb: 5.35e+00   eps : -5.28e-04   step: 4.74e-02    0.25
+         res : 3.03e-05   lamb: 5.38e+00   eps : -5.31e-04   step: 4.71e-02    0.25
+         res : 2.77e-05   lamb: 5.39e+00   eps : -5.32e-04   step: 4.70e-02    0.25
+         res : 1.62e-05   lamb: 5.39e+00   eps : -5.32e-04   step: 4.70e-02    0.25
+         res : 1.37e-05   lamb: 5.39e+00   eps : -5.32e-04   step: 4.70e-02    0.25
+         res : 1.45e-05   lamb: 5.39e+00   eps : -5.32e-04   step: 4.70e-02    0.25
+         res : 1.25e-05   lamb: 5.41e+00   eps : -5.34e-04   step: 4.69e-02    0.25
+         res : 1.06e-05   lamb: 5.45e+00   eps : -5.37e-04   step: 4.65e-02    0.25
+         res : 9.86e-06   lamb: 5.50e+00   eps : -5.42e-04   step: 4.61e-02    0.42
+         res : 8.71e-06   lamb: 5.52e+00   eps : -5.43e-04   step: 4.60e-02    0.25
+         res : 6.26e-06   lamb: 5.52e+00   eps : -5.43e-04   step: 4.60e-02    0.25
+         res : 6.03e-06   lamb: 5.56e+00   eps : -5.46e-04   step: 4.57e-02    0.29
+         res : 5.10e-06   lamb: 5.58e+00   eps : -5.48e-04   step: 4.56e-02    0.26
+         res : 4.82e-06   lamb: 5.58e+00   eps : -5.48e-04   step: 4.56e-02    0.25
+         res : 4.56e-06   lamb: 5.61e+00   eps : -5.51e-04   step: 4.53e-02    0.25
+         res : 4.08e-06   lamb: 5.68e+00   eps : -5.57e-04   step: 4.49e-02    0.25
+      6  0      -795.20908598     7.40e-06     52.70
+
+         res : 1.26e-02   lamb: 1.00e+00   eps : -8.10e-05   step: 6.36e-01    0.34
+         res : 4.04e-03   lamb: 1.64e+00   eps : -1.62e-04   step: 9.91e-01    0.53
+         res : 3.42e-03   lamb: 1.82e+00   eps : -1.60e-04   step: 9.21e-01    0.31
+         res : 4.72e-04   lamb: 2.85e+00   eps : -1.36e-04   step: 4.73e-01    0.24
+         res : 3.92e-04   lamb: 3.44e+00   eps : -1.30e-04   step: 3.60e-01    0.24
+         res : 2.63e-04   lamb: 3.45e+00   eps : -1.30e-04   step: 3.57e-01    0.26
+         res : 1.86e-04   lamb: 3.51e+00   eps : -1.30e-04   step: 3.47e-01    0.40
+         res : 1.38e-04   lamb: 3.56e+00   eps : -1.29e-04   step: 3.39e-01    0.24
+         res : 9.36e-05   lamb: 3.58e+00   eps : -1.29e-04   step: 3.36e-01    0.24
+         res : 7.08e-05   lamb: 3.59e+00   eps : -1.29e-04   step: 3.34e-01    0.24
+         res : 5.49e-05   lamb: 3.61e+00   eps : -1.29e-04   step: 3.31e-01    0.24
+         res : 4.00e-05   lamb: 3.65e+00   eps : -1.29e-04   step: 3.26e-01    0.24
+         res : 2.90e-05   lamb: 3.72e+00   eps : -1.28e-04   step: 3.17e-01    0.24
+      7  0      -795.20915603     3.66e-06     53.20
+
+         res : 1.57e-03   lamb: 1.45e+00   eps : -5.51e-04   step: 9.94e-01    0.25
+         res : 3.16e-03   lamb: 1.56e+00   eps : -5.69e-04   step: 9.97e-01    0.26
+         res : 6.62e-03   lamb: 1.58e+00   eps : -5.68e-04   step: 9.93e-01    0.25
+         res : 2.11e-03   lamb: 1.62e+00   eps : -5.65e-04   step: 9.73e-01    0.25
+         res : 1.18e-03   lamb: 1.64e+00   eps : -5.62e-04   step: 9.58e-01    0.33
+         res : 8.77e-04   lamb: 1.67e+00   eps : -5.59e-04   step: 9.40e-01    0.25
+         res : 3.32e-04   lamb: 1.68e+00   eps : -5.58e-04   step: 9.32e-01    0.25
+         res : 2.71e-04   lamb: 1.68e+00   eps : -5.57e-04   step: 9.30e-01    0.34
+         res : 1.89e-04   lamb: 1.68e+00   eps : -5.57e-04   step: 9.28e-01    0.25
+         res : 1.32e-04   lamb: 1.68e+00   eps : -5.57e-04   step: 9.28e-01    0.25
+         res : 1.34e-04   lamb: 1.68e+00   eps : -5.57e-04   step: 9.28e-01    0.25
+         res : 7.74e-05   lamb: 1.68e+00   eps : -5.57e-04   step: 9.27e-01    0.26
+      8  0      -795.21155949     5.25e-05     57.53
+
+         res : 1.04e-02   lamb: 1.00e+00   eps : -5.80e-03   step: 9.20e-01    0.26
+         res : 8.20e-03   lamb: 1.00e+00   eps : -6.82e-03   step: 9.36e-01    0.25
+         res : 1.89e-02   lamb: 1.00e+00   eps : -6.92e-03   step: 9.39e-01    0.25
+         res : 1.31e-02   lamb: 1.00e+00   eps : -6.93e-03   step: 9.42e-01    0.24
+         res : 6.01e-03   lamb: 1.00e+00   eps : -6.94e-03   step: 9.47e-01    0.24
+         res : 7.10e-03   lamb: 1.00e+00   eps : -6.94e-03   step: 9.50e-01    0.27
+         res : 3.71e-03   lamb: 1.00e+00   eps : -6.94e-03   step: 9.52e-01    0.25
+         res : 2.29e-03   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.66e-03   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 1.58e-03   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.27
+         res : 1.27e-03   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 1.16e-03   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 9.94e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 6.77e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.31
+         res : 6.56e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 4.78e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 4.65e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 4.38e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 3.96e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 3.33e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.26
+         res : 2.83e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 2.71e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 2.64e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.27
+         res : 2.51e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 2.44e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 2.36e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 2.20e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 2.19e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.24
+         res : 2.01e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.35
+         res : 2.10e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.79e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.82e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.63e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.33
+         res : 1.48e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.42e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.26e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.39e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.29
+         res : 1.21e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 1.03e-04   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.25
+         res : 9.35e-05   lamb: 1.00e+00   eps : -6.95e-03   step: 9.52e-01    0.26
+      9  0      -795.22192888     1.54e-04     64.86
+
+         res : 1.60e-02   lamb: 1.00e+00   eps : -5.43e-03   step: 7.76e-01    0.24
+         res : 1.68e-02   lamb: 1.00e+00   eps : -6.35e-03   step: 7.83e-01    0.24
+         res : 2.09e-02   lamb: 1.00e+00   eps : -6.44e-03   step: 7.75e-01    0.26
+         res : 1.83e-02   lamb: 1.00e+00   eps : -6.48e-03   step: 7.76e-01    0.24
+         res : 9.01e-03   lamb: 1.00e+00   eps : -6.50e-03   step: 7.84e-01    0.24
+         res : 4.43e-03   lamb: 1.00e+00   eps : -6.50e-03   step: 7.89e-01    0.39
+         res : 5.79e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.90e-01    0.24
+         res : 4.63e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.89e-01    0.24
+         res : 2.96e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.88e-01    0.24
+         res : 2.76e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.87e-01    0.83
+         res : 1.96e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 1.27e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.44
+         res : 1.22e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.24
+         res : 1.15e-03   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.24
+         res : 7.39e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.41
+         res : 6.98e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 5.27e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.87e-01    0.25
+         res : 5.41e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.87e-01    0.36
+         res : 4.07e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.39
+         res : 4.31e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 4.01e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.30
+         res : 3.45e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 2.99e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 2.96e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.31
+         res : 2.33e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.28
+         res : 2.53e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 2.23e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.34
+         res : 2.33e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 2.18e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.37
+         res : 2.65e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.29
+         res : 2.28e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.24
+         res : 2.23e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.24
+         res : 1.93e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.26
+         res : 1.94e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.24
+         res : 1.77e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 1.82e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 1.84e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 1.60e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 1.42e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 1.28e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.33
+         res : 1.20e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 9.85e-05   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.30
+         res : 1.00e-04   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.35
+         res : 8.20e-05   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.25
+         res : 7.43e-05   lamb: 1.00e+00   eps : -6.51e-03   step: 7.86e-01    0.48
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 1074277 ON cn0414 CANCELLED AT 2026-02-24T11:32:25 ***
+slurmstepd: error: *** STEP 1074277.0 ON cn0414 CANCELLED AT 2026-02-24T11:32:25 ***

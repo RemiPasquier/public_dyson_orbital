@@ -1,0 +1,216 @@
+{ "bagel": [
+ {
+     "title": "molecule",
+     "basis": "cc-pvtz",
+     "df_basis": "cc-pvtz-jkfit",
+     "angstrom": true,
+     "geometry": [
+{"atom": "C", "xyz": [ -4.31744968257707, -1.74571058082465,  0.00001215521820 ]},
+{"atom": "C", "xyz": [ -3.53408605000552, -0.57882874161008,  0.00000770810071 ]},
+{"atom": "C", "xyz": [ -2.41791178811371, -0.13960776034039,  0.00000040842024 ]},
+{"atom": "C", "xyz": [ -3.62849142468160, -2.91513119266647, -0.00000090066139 ]},
+{"atom": "C", "xyz": [ -2.19622716721339, -3.04599043665731, -0.00000425608385 ]},
+{"atom": "C", "xyz": [ -1.20805574985822, -2.11429034505923, -0.00000219656761 ]},
+{"atom": "C", "xyz": [ -1.11002435902056, -0.65771214335993, -0.00000320617173 ]},
+{"atom": "C", "xyz": [  0.20744926520190, -0.34878651997480, -0.00003533820864 ]},
+{"atom": "C", "xyz": [  0.11274229591231, -2.64575787065268,  0.00001168437870 ]},
+{"atom": "C", "xyz": [  0.96842596681105, -1.59418425596360,  0.00005283194607 ]},
+{"atom": "C", "xyz": [ -1.47052539293528, -4.35262780997445, -0.00000506435895 ]},
+{"atom": "C", "xyz": [ -0.02867688270664, -4.10041191427692, -0.00001352847579 ]},
+{"atom": "N", "xyz": [ -1.97184616551708, -5.51472962812946, -0.00000475043171 ]},
+{"atom": "N", "xyz": [  0.82660202439915, -5.03814229058314, -0.00000931221533 ]},
+{"atom": "C", "xyz": [ -1.06749486095419, -6.55213183105983, -0.00000689479990 ]},
+{"atom": "C", "xyz": [  0.31203115854845, -6.31321462522788, -0.00000829737416 ]},
+{"atom": "C", "xyz": [ -1.54276490482719, -7.87024294579125, -0.00000241301411 ]},
+{"atom": "C", "xyz": [ -0.66741465876515, -8.91595230010895,  0.00000026412492 ]},
+{"atom": "C", "xyz": [  0.71464794994295, -8.67822872518807, -0.00000107777184 ]},
+{"atom": "C", "xyz": [  1.19536460427416, -7.40184711980263, -0.00000483004424 ]},
+{"atom": "H", "xyz": [ -2.60355942113786, -8.02672043087830, -0.00000018347387 ]},
+{"atom": "H", "xyz": [ -1.03416454263586, -9.92416196370584,  0.00000412448890 ]},
+{"atom": "H", "xyz": [  1.39587331487331, -9.50723048357521,  0.00000188143453 ]},
+{"atom": "H", "xyz": [  2.24799053306619, -7.19851977350084, -0.00000449547151 ]},
+{"atom": "H", "xyz": [  0.64133286838518,  0.62845261909847, -0.00006679077865 ]},
+{"atom": "H", "xyz": [  2.03855281958816, -1.63747738727702,  0.00007076568507 ]},
+{"atom": "H", "xyz": [ -4.17921635245827, -3.83642653962870, -0.00000256206273 ]},
+{"atom": "H", "xyz": [ -5.38847339759517, -1.73755700328072,  0.00001427416870 ]}]
+ },
+
+
+{
+     "title"   : "uhf",
+     "charge"  : 0,
+     "nopen"   : 0,
+     "thresh"  : 1e-8,
+     "maxiter" : 1000,
+     "thresh_overlap" : 1e-8,
+     "diis_start"     : 5
+ },
+
+{
+     "title"  : "moprint",
+     "mo_filename"   : "HF_anion"
+ },
+
+
+{
+     "title"  : "print",
+     "file"   : "HF_anion.molden",
+     "orbitals" : true
+ },
+
+ {
+     "title"   : "casscf",
+     "nclosed" : 59,
+     "nact"    : 12,
+     "nstate"  : 1,
+     "charge"  : 0,
+     "nspin"   : 0,
+     "maxiter" : 1000,
+     "maxiter_micro": 200
+ },
+
+{
+     "title"  : "print",
+     "file"   : "neutral.molden",
+     "orbitals" : true
+ },
+
+ {
+     "title" : "save_ref",
+     "file"  : "mol_dirad_neutral"
+ },
+
+ {
+     "title"   : "casscf",
+     "nclosed" : 59,
+     "nact"    : 12,
+     "nstate"  : 1,
+     "charge"  : 0,
+     "nspin"   : 2,
+     "maxiter" : 1000
+ },
+
+{
+     "title"  : "print",
+     "file"   : "tripletonsing.molden",
+     "orbitals" : true
+ },
+
+ {
+     "title" : "save_ref",
+     "file"  : "mol_dirad_tripletonsing"
+ },
+
+
+
+
+ {
+     "title"   : "casscf",
+     "nclosed" : 59,
+     "nact"    : 12,
+     "nstate"  : 1,
+     "charge"  : 1,
+     "nspin"   : 1,
+     "maxiter" : 200
+ },
+
+ {
+     "title"  : "print",
+     "file"   : "cation.molden",
+     "orbitals" : true 
+ },
+
+ {
+     "title"  : "save_ref",
+     "file"   : "mol_dirad_cation"
+ },
+
+{
+     "title"   : "casscf",
+     "nclosed" : 59,
+     "nact"    : 12,
+     "nstate"  : 1,
+     "charge"  : -1,
+     "nspin"   : 1,
+     "maxiter" : 200
+ },
+
+ {
+     "title"  : "print",
+     "file"   : "anion.molden",
+     "orbitals" : true 
+ },
+
+ {
+     "title"  : "save_ref",
+     "file"   : "mol_dirad_anion"
+ },
+
+
+ {
+     "title"   : "dyson",
+     "initial" :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_neutral"
+     },
+     "final"   :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_cation"
+     },
+     "thresh"  : 1.0e-8,
+     "molden_file" : "dyson_orbitals_sing.molden"
+ },
+
+{
+     "title"   : "dyson",
+     "initial" :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_anion"
+     },
+     "final"   :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_neutral"
+     },
+     "thresh"  : 1.0e-8,
+     "molden_file" : "dyson_orbitals_sing_empty.molden"
+ },
+
+
+  {
+     "title"   : "dyson",
+     "initial" :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_tripletonsing"
+     },
+     "final"   :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_cation"
+     },
+     "thresh"  : 1.0e-8,
+     "molden_file" : "dyson_orbitals_triponsing.molden"
+ },
+
+ {
+     "title"   : "dyson",
+     "initial" :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_anion"
+     },
+     "final"   :
+     {
+         "states" : [0],
+         "file"   : "mol_dirad_tripletonsing"
+     },
+     "thresh"  : 1.0e-8,
+     "molden_file" : "dyson_orbitals_triponsing_empty.molden"
+ }
+
+
+]}

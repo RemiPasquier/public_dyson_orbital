@@ -1,0 +1,959 @@
+    * Using serial Knowles-Handy algorithm in FCI.
+  ---------------------------
+        FCI calculation      
+  ---------------------------
+
+  Performs exactly the same way as Knowles & Handy 1984 CPL
+
+  o alpha-beta strings
+      length:            35
+  o size of the space 
+      determinant space:  300
+      spin-adapted space: 210
+
+  o single displacement lists (alpha)
+      length:           180
+  o single displacement lists (beta)
+      length:           240
+    * Integral transformation done. Elapsed time: 0.63
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -794.11650262     2.80e-02      0.00
+      1  0      -794.24526744     1.22e-02      0.00
+      2  0      -794.26439035     3.59e-03      0.00
+      3  0      -794.26640569     1.55e-03      0.00
+      4  0      -794.26683270     6.99e-04      0.00
+      5  0      -794.26689178     2.66e-04      0.00
+      6  0      -794.26689932     7.24e-05      0.00
+      7  0      -794.26689987     1.64e-05      0.00
+      8  0      -794.26689990     4.24e-06      0.00
+      9  0      -794.26689990     1.09e-06      0.00
+     10  0      -794.26689990     2.47e-07      0.00
+     11  0      -794.26689990     5.72e-08      0.00
+     12  0      -794.26689990     1.32e-08      0.00
+     13  0      -794.26689990     2.77e-09      0.00
+     14  0      -794.26689990     6.48e-10      0.00
+     15  0      -794.26689990     1.44e-10      0.00
+     16  0 *    -794.26689990     3.50e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..     0.9149610435
+       222.a.    -0.3357988783
+       22aa.b    -0.1070653114
+       22ba.a     0.0951038211
+       2a22..    -0.0728674939
+       22aab.     0.0566341631
+       22baa.    -0.0536583051
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -794.77071474     1.74e-02      0.00
+      1  0      -794.80208066     2.86e-03      0.00
+      2  0      -794.80282496     4.94e-04      0.00
+      3  0      -794.80284711     6.40e-05      0.00
+      4  0      -794.80284760     1.32e-05      0.00
+      5  0      -794.80284763     3.99e-06      0.00
+      6  0      -794.80284763     9.27e-07      0.00
+      7  0      -794.80284763     1.45e-07      0.00
+      8  0      -794.80284763     2.33e-08      0.00
+      9  0      -794.80284763     4.14e-09      0.00
+     10  0      -794.80284763     7.89e-10      0.00
+     11  0      -794.80284763     1.69e-10      0.00
+     12  0 *    -794.80284763     3.03e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..     0.9937811197
+       22.a2.     0.0561065377
+       - FCI and RDMs                              0.00
+    * Integral transformation done. Elapsed time: 0.40
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -794.83759113     1.70e-02      0.00
+      1  0      -794.86706956     2.51e-03      0.00
+      2  0      -794.86762896     3.60e-04      0.00
+      3  0      -794.86764014     5.14e-05      0.00
+      4  0      -794.86764042     8.49e-06      0.00
+      5  0      -794.86764043     1.92e-06      0.00
+      6  0      -794.86764043     4.40e-07      0.00
+      7  0      -794.86764043     7.59e-08      0.00
+      8  0      -794.86764043     1.24e-08      0.00
+      9  0      -794.86764043     2.15e-09      0.00
+     10  0      -794.86764043     4.66e-10      0.00
+     11  0 *    -794.86764043     8.81e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9946073297
+       22.a2.    -0.0553015974
+       - FCI and RDMs                              0.00
+    * Integral transformation done. Elapsed time: 0.50
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -794.88950123     1.69e-02      0.00
+      1  0      -794.91849305     2.42e-03      0.00
+      2  0      -794.91901878     2.90e-04      0.00
+      3  0      -794.91902611     4.37e-05      0.00
+      4  0      -794.91902632     7.24e-06      0.00
+      5  0      -794.91902632     1.43e-06      0.00
+      6  0      -794.91902632     3.19e-07      0.00
+      7  0      -794.91902632     5.60e-08      0.00
+      8  0      -794.91902632     9.75e-09      0.00
+      9  0      -794.91902632     1.70e-09      0.00
+     10  0      -794.91902632     3.72e-10      0.00
+     11  0 *    -794.91902632     6.48e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9947079740
+       22.a2.    -0.0554981525
+       - FCI and RDMs                              0.00
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -794.91729148     1.68e-02      0.00
+      1  0      -794.94570831     2.37e-03      0.00
+      2  0      -794.94621247     2.55e-04      0.00
+      3  0      -794.94621819     3.85e-05      0.00
+      4  0      -794.94621835     6.29e-06      0.00
+      5  0      -794.94621835     1.06e-06      0.00
+      6  0      -794.94621835     2.09e-07      0.00
+      7  0      -794.94621835     3.68e-08      0.00
+      8  0      -794.94621835     6.43e-09      0.00
+      9  0      -794.94621835     1.08e-09      0.00
+     10  0      -794.94621835     1.86e-10      0.00
+     11  0 *    -794.94621835     2.40e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9949208555
+       22.a2.    -0.0553325243
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.51
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -794.95581774     1.67e-02      0.00
+      1  0      -794.98393676     2.35e-03      0.00
+      2  0      -794.98443893     2.33e-04      0.00
+      3  0      -794.98444392     3.40e-05      0.00
+      4  0      -794.98444405     5.22e-06      0.00
+      5  0      -794.98444405     9.32e-07      0.00
+      6  0      -794.98444406     1.85e-07      0.00
+      7  0      -794.98444406     3.44e-08      0.00
+      8  0      -794.98444406     6.61e-09      0.00
+      9  0      -794.98444406     1.15e-09      0.00
+     10  0      -794.98444406     1.98e-10      0.00
+     11  0 *    -794.98444406     3.30e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9949728966
+       22.a2.    -0.0551768279
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.04685415     1.66e-02      0.00
+      1  0      -795.07462359     2.35e-03      0.00
+      2  0      -795.07513205     2.31e-04      0.00
+      3  0      -795.07513740     3.49e-05      0.00
+      4  0      -795.07513754     4.39e-06      0.00
+      5  0      -795.07513755     7.61e-07      0.00
+      6  0      -795.07513755     1.35e-07      0.00
+      7  0      -795.07513755     2.34e-08      0.00
+      8  0      -795.07513755     4.17e-09      0.00
+      9  0      -795.07513755     8.83e-10      0.00
+     10  0      -795.07513755     1.80e-10      0.00
+     11  0 *    -795.07513755     3.27e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9949930547
+       22.a2.    -0.0548074856
+       - FCI and RDMs                              0.00
+    * Integral transformation done. Elapsed time: 0.39
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.23779177     1.66e-02      0.00
+      1  0      -795.26524681     2.33e-03      0.00
+      2  0      -795.26574828     1.79e-04      0.00
+      3  0      -795.26575182     3.15e-05      0.00
+      4  0      -795.26575197     8.09e-06      0.00
+      5  0      -795.26575199     2.36e-06      0.00
+      6  0      -795.26575199     4.16e-07      0.00
+      7  0      -795.26575199     7.48e-08      0.00
+      8  0      -795.26575199     1.42e-08      0.00
+      9  0      -795.26575199     2.29e-09      0.00
+     10  0      -795.26575199     3.67e-10      0.00
+     11  0 *    -795.26575199     5.33e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9951462577
+       22.a2.    -0.0542502125
+       - FCI and RDMs                              0.00
+    * Integral transformation done. Elapsed time: 0.37
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.27733320     1.70e-02      0.00
+      1  0      -795.30629830     2.56e-03      0.00
+      2  0      -795.30690007     3.09e-04      0.00
+      3  0      -795.30691034     3.77e-05      0.00
+      4  0      -795.30691050     4.10e-06      0.00
+      5  0      -795.30691050     7.78e-07      0.00
+      6  0      -795.30691050     2.95e-07      0.00
+      7  0      -795.30691050     1.02e-07      0.00
+      8  0      -795.30691050     1.32e-08      0.00
+      9  0      -795.30691050     1.79e-09      0.00
+     10  0      -795.30691050     3.16e-10      0.00
+     11  0 *    -795.30691050     4.49e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9949058444
+       22.a2.    -0.0538360452
+       - FCI and RDMs                              0.00
+    * Integral transformation done. Elapsed time: 0.39
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29936090     1.77e-02      0.00
+      1  0      -795.33067940     2.91e-03      0.00
+      2  0      -795.33146922     4.14e-04      0.00
+      3  0      -795.33148793     5.34e-05      0.00
+      4  0      -795.33148825     6.15e-06      0.00
+      5  0      -795.33148826     1.39e-06      0.00
+      6  0      -795.33148826     6.12e-07      0.00
+      7  0      -795.33148826     1.38e-07      0.00
+      8  0      -795.33148826     2.40e-08      0.00
+      9  0      -795.33148826     2.96e-09      0.00
+     10  0      -795.33148826     4.01e-10      0.00
+     11  0 *    -795.33148826     7.35e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9944238935
+       22.a2.    -0.0537088090
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.39
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29993645     1.78e-02      0.00
+      1  0      -795.33237033     3.01e-03      0.00
+      2  0      -795.33320916     3.76e-04      0.00
+      3  0      -795.33322367     5.15e-05      0.00
+      4  0      -795.33322398     6.34e-06      0.00
+      5  0      -795.33322399     7.20e-07      0.00
+      6  0      -795.33322399     1.29e-07      0.00
+      7  0      -795.33322399     3.81e-08      0.00
+      8  0      -795.33322399     1.04e-08      0.00
+      9  0      -795.33322399     2.85e-09      0.00
+     10  0      -795.33322399     4.23e-10      0.00
+     11  0 *    -795.33322399     6.13e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940901697
+       22.a2.    -0.0564294014
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.40
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29992302     1.79e-02      0.00
+      1  0      -795.33278663     2.89e-03      0.00
+      2  0      -795.33351956     3.75e-04      0.00
+      3  0      -795.33353281     5.49e-05      0.00
+      4  0      -795.33353313     7.72e-06      0.00
+      5  0      -795.33353314     8.48e-07      0.00
+      6  0      -795.33353314     1.02e-07      0.00
+      7  0      -795.33353314     1.28e-08      0.00
+      8  0      -795.33353314     1.53e-09      0.00
+      9  0      -795.33353314     1.61e-10      0.00
+     10  0 *    -795.33353314     4.16e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..     0.9940075136
+       22.a2.     0.0656669816
+       2.2a.2     0.0565753996
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.39
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29991298     1.80e-02      0.00
+      1  0      -795.33289210     2.91e-03      0.00
+      2  0      -795.33362675     3.80e-04      0.00
+      3  0      -795.33363977     5.86e-05      0.00
+      4  0      -795.33364011     7.55e-06      0.00
+      5  0      -795.33364012     7.13e-07      0.00
+      6  0      -795.33364012     8.39e-08      0.00
+      7  0      -795.33364012     8.76e-09      0.00
+      8  0      -795.33364012     1.00e-09      0.00
+      9  0      -795.33364012     1.38e-10      0.00
+     10  0 *    -795.33364012     3.14e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..     0.9940051670
+       22.a2.     0.0663325897
+       2.2a.2     0.0571660615
+       - FCI and RDMs                              0.01
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.50
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990902     1.80e-02      0.00
+      1  0      -795.33291063     2.92e-03      0.00
+      2  0      -795.33364371     3.77e-04      0.00
+      3  0      -795.33365634     5.98e-05      0.00
+      4  0      -795.33365667     7.25e-06      0.00
+      5  0      -795.33365667     6.82e-07      0.00
+      6  0      -795.33365667     7.83e-08      0.00
+      7  0      -795.33365667     7.51e-09      0.00
+      8  0      -795.33365667     8.34e-10      0.00
+      9  0      -795.33365667     1.07e-10      0.00
+     10  0 *    -795.33365667     2.50e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..     0.9940075527
+       22.a2.     0.0664425810
+       2.2a.2     0.0572764924
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.64
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990752     1.80e-02      0.00
+      1  0      -795.33291458     2.92e-03      0.00
+      2  0      -795.33364647     3.76e-04      0.00
+      3  0      -795.33365900     6.00e-05      0.00
+      4  0      -795.33365933     7.14e-06      0.00
+      5  0      -795.33365933     6.68e-07      0.00
+      6  0      -795.33365933     7.62e-08      0.00
+      7  0      -795.33365933     7.14e-09      0.00
+      8  0      -795.33365933     7.82e-10      0.00
+      9  0 *    -795.33365933     8.53e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940077380
+       22.a2.    -0.0665402231
+       2.2a.2    -0.0573526496
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990687     1.80e-02      0.00
+      1  0      -795.33291627     2.92e-03      0.00
+      2  0      -795.33364750     3.76e-04      0.00
+      3  0      -795.33366000     5.99e-05      0.00
+      4  0      -795.33366032     7.10e-06      0.00
+      5  0      -795.33366033     6.63e-07      0.00
+      6  0      -795.33366033     7.57e-08      0.00
+      7  0      -795.33366033     7.03e-09      0.00
+      8  0      -795.33366033     7.65e-10      0.00
+      9  0 *    -795.33366033     7.58e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940068821
+       22.a2.    -0.0666057321
+       2.2a.2    -0.0573724658
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990645     1.80e-02      0.00
+      1  0      -795.33291717     2.92e-03      0.00
+      2  0      -795.33364802     3.75e-04      0.00
+      3  0      -795.33366050     5.99e-05      0.00
+      4  0      -795.33366083     7.09e-06      0.00
+      5  0      -795.33366083     6.61e-07      0.00
+      6  0      -795.33366083     7.56e-08      0.00
+      7  0      -795.33366083     7.02e-09      0.00
+      8  0      -795.33366083     7.61e-10      0.00
+      9  0 *    -795.33366083     7.41e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940057303
+       22.a2.    -0.0666510845
+       2.2a.2    -0.0573770092
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.39
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990612     1.80e-02      0.00
+      1  0      -795.33291772     2.92e-03      0.00
+      2  0      -795.33364831     3.75e-04      0.00
+      3  0      -795.33366078     5.98e-05      0.00
+      4  0      -795.33366111     7.09e-06      0.00
+      5  0      -795.33366111     6.61e-07      0.00
+      6  0      -795.33366111     7.57e-08      0.00
+      7  0      -795.33366111     7.03e-09      0.00
+      8  0      -795.33366111     7.61e-10      0.00
+      9  0 *    -795.33366111     7.38e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940046505
+       22.a2.    -0.0666847122
+       2.2a.2    -0.0573790999
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.39
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990585     1.80e-02      0.00
+      1  0      -795.33291808     2.92e-03      0.00
+      2  0      -795.33364847     3.75e-04      0.00
+      3  0      -795.33366094     5.97e-05      0.00
+      4  0      -795.33366127     7.09e-06      0.00
+      5  0      -795.33366127     6.62e-07      0.00
+      6  0      -795.33366127     7.58e-08      0.00
+      7  0      -795.33366127     7.05e-09      0.00
+      8  0      -795.33366127     7.62e-10      0.00
+      9  0 *    -795.33366127     7.38e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940037514
+       22.a2.    -0.0667106435
+       2.2a.2    -0.0573814947
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.49
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990563     1.80e-02      0.00
+      1  0      -795.33291833     2.91e-03      0.00
+      2  0      -795.33364857     3.75e-04      0.00
+      3  0      -795.33366103     5.97e-05      0.00
+      4  0      -795.33366136     7.10e-06      0.00
+      5  0      -795.33366136     6.62e-07      0.00
+      6  0      -795.33366136     7.59e-08      0.00
+      7  0      -795.33366136     7.06e-09      0.00
+      8  0      -795.33366136     7.63e-10      0.00
+      9  0 *    -795.33366136     7.39e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940030384
+       22.a2.    -0.0667308875
+       2.2a.2    -0.0573842696
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990545     1.80e-02      0.00
+      1  0      -795.33291851     2.91e-03      0.00
+      2  0      -795.33364862     3.75e-04      0.00
+      3  0      -795.33366109     5.97e-05      0.00
+      4  0      -795.33366141     7.10e-06      0.00
+      5  0      -795.33366142     6.62e-07      0.00
+      6  0      -795.33366142     7.59e-08      0.00
+      7  0      -795.33366142     7.08e-09      0.00
+      8  0      -795.33366142     7.64e-10      0.00
+      9  0 *    -795.33366142     7.40e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940024851
+       22.a2.    -0.0667467125
+       2.2a.2    -0.0573870929
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990531     1.80e-02      0.00
+      1  0      -795.33291863     2.91e-03      0.00
+      2  0      -795.33364866     3.75e-04      0.00
+      3  0      -795.33366112     5.97e-05      0.00
+      4  0      -795.33366145     7.10e-06      0.00
+      5  0      -795.33366145     6.63e-07      0.00
+      6  0      -795.33366145     7.60e-08      0.00
+      7  0      -795.33366145     7.08e-09      0.00
+      8  0      -795.33366145     7.65e-10      0.00
+      9  0 *    -795.33366145     7.41e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940020595
+       22.a2.    -0.0667590640
+       2.2a.2    -0.0573897236
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990519     1.80e-02      0.00
+      1  0      -795.33291873     2.91e-03      0.00
+      2  0      -795.33364868     3.75e-04      0.00
+      3  0      -795.33366114     5.97e-05      0.00
+      4  0      -795.33366147     7.10e-06      0.00
+      5  0      -795.33366147     6.63e-07      0.00
+      6  0      -795.33366147     7.60e-08      0.00
+      7  0      -795.33366147     7.09e-09      0.00
+      8  0      -795.33366147     7.66e-10      0.00
+      9  0 *    -795.33366147     7.42e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940017336
+       22.a2.    -0.0667686837
+       2.2a.2    -0.0573920459
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990511     1.80e-02      0.00
+      1  0      -795.33291879     2.91e-03      0.00
+      2  0      -795.33364869     3.75e-04      0.00
+      3  0      -795.33366115     5.96e-05      0.00
+      4  0      -795.33366148     7.11e-06      0.00
+      5  0      -795.33366148     6.63e-07      0.00
+      6  0      -795.33366148     7.60e-08      0.00
+      7  0      -795.33366148     7.10e-09      0.00
+      8  0      -795.33366148     7.66e-10      0.00
+      9  0 *    -795.33366148     7.42e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940014841
+       22.a2.    -0.0667761609
+       2.2a.2    -0.0573940228
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990504     1.80e-02      0.00
+      1  0      -795.33291884     2.91e-03      0.00
+      2  0      -795.33364870     3.74e-04      0.00
+      3  0      -795.33366116     5.96e-05      0.00
+      4  0      -795.33366148     7.11e-06      0.00
+      5  0      -795.33366149     6.63e-07      0.00
+      6  0      -795.33366149     7.60e-08      0.00
+      7  0      -795.33366149     7.10e-09      0.00
+      8  0      -795.33366149     7.67e-10      0.00
+      9  0 *    -795.33366149     7.42e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940012934
+       22.a2.    -0.0667819627
+       2.2a.2    -0.0573956668
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.46
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990499     1.80e-02      0.00
+      1  0      -795.33291888     2.91e-03      0.00
+      2  0      -795.33364870     3.74e-04      0.00
+      3  0      -795.33366116     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366149     6.63e-07      0.00
+      6  0      -795.33366149     7.60e-08      0.00
+      7  0      -795.33366149     7.10e-09      0.00
+      8  0      -795.33366149     7.67e-10      0.00
+      9  0 *    -795.33366149     7.42e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940011473
+       22.a2.    -0.0667864585
+       2.2a.2    -0.0573970098
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990495     1.80e-02      0.00
+      1  0      -795.33291891     2.91e-03      0.00
+      2  0      -795.33364870     3.74e-04      0.00
+      3  0      -795.33366116     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366149     6.64e-07      0.00
+      6  0      -795.33366149     7.60e-08      0.00
+      7  0      -795.33366149     7.10e-09      0.00
+      8  0      -795.33366149     7.67e-10      0.00
+      9  0 *    -795.33366149     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940010354
+       22.a2.    -0.0667899384
+       2.2a.2    -0.0573980942
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.37
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990492     1.80e-02      0.00
+      1  0      -795.33291893     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366116     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366149     6.64e-07      0.00
+      6  0      -795.33366149     7.60e-08      0.00
+      7  0      -795.33366149     7.10e-09      0.00
+      8  0      -795.33366149     7.67e-10      0.00
+      9  0 *    -795.33366149     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940009497
+       22.a2.    -0.0667926295
+       2.2a.2    -0.0573989611
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.40
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990489     1.80e-02      0.00
+      1  0      -795.33291895     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366117     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366149     6.64e-07      0.00
+      6  0      -795.33366149     7.60e-08      0.00
+      7  0      -795.33366149     7.11e-09      0.00
+      8  0      -795.33366149     7.67e-10      0.00
+      9  0 *    -795.33366149     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940008838
+       22.a2.    -0.0667947096
+       2.2a.2    -0.0573996496
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.45
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990487     1.80e-02      0.00
+      1  0      -795.33291896     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366117     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366150     6.64e-07      0.00
+      6  0      -795.33366150     7.60e-08      0.00
+      7  0      -795.33366150     7.11e-09      0.00
+      8  0      -795.33366150     7.67e-10      0.00
+      9  0 *    -795.33366150     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940008333
+       22.a2.    -0.0667963157
+       2.2a.2    -0.0574001930
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990486     1.80e-02      0.00
+      1  0      -795.33291897     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366117     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366150     6.64e-07      0.00
+      6  0      -795.33366150     7.60e-08      0.00
+      7  0      -795.33366150     7.11e-09      0.00
+      8  0      -795.33366150     7.67e-10      0.00
+      9  0 *    -795.33366150     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940007944
+       22.a2.    -0.0667975559
+       2.2a.2    -0.0574006204
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.43
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990485     1.80e-02      0.00
+      1  0      -795.33291898     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366117     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366150     6.64e-07      0.00
+      6  0      -795.33366150     7.60e-08      0.00
+      7  0      -795.33366150     7.11e-09      0.00
+      8  0      -795.33366150     7.67e-10      0.00
+      9  0 *    -795.33366150     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940007647
+       22.a2.    -0.0667985114
+       2.2a.2    -0.0574009546
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.45
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990484     1.80e-02      0.00
+      1  0      -795.33291898     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366117     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366150     6.64e-07      0.00
+      6  0      -795.33366150     7.60e-08      0.00
+      7  0      -795.33366150     7.11e-09      0.00
+      8  0      -795.33366150     7.68e-10      0.00
+      9  0 *    -795.33366150     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940007418
+       22.a2.    -0.0667992492
+       2.2a.2    -0.0574012158
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.38
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990483     1.80e-02      0.00
+      1  0      -795.33291899     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366117     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366150     6.64e-07      0.00
+      6  0      -795.33366150     7.60e-08      0.00
+      7  0      -795.33366150     7.11e-09      0.00
+      8  0      -795.33366150     7.68e-10      0.00
+      9  0 *    -795.33366150     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940007242
+       22.a2.    -0.0667998177
+       2.2a.2    -0.0574014191
+       - FCI and RDMs                              0.00
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+ ... the vector found in AugHess was not the lowest eigenvector ...
+    * Integral transformation done. Elapsed time: 0.47
+
+     guess   0:   closed 111...               open ...1..              
+
+  === FCI iteration ===
+
+      0  0      -795.29990483     1.80e-02      0.00
+      1  0      -795.33291899     2.91e-03      0.00
+      2  0      -795.33364871     3.74e-04      0.00
+      3  0      -795.33366117     5.96e-05      0.00
+      4  0      -795.33366149     7.11e-06      0.00
+      5  0      -795.33366150     6.64e-07      0.00
+      6  0      -795.33366150     7.60e-08      0.00
+      7  0      -795.33366150     7.11e-09      0.00
+      8  0      -795.33366150     7.68e-10      0.00
+      9  0 *    -795.33366150     7.43e-11      0.00
+
+     * ci vector, state   0, <S^2> = 0.7500
+       222a..    -0.9940007106
+       22.a2.    -0.0668002562
+       2.2a.2    -0.0574015772
+       - FCI and RDMs                              0.00

@@ -1,0 +1,56 @@
+    * Using serial Knowles-Handy algorithm in FCI.
+  ---------------------------
+        FCI calculation      
+  ---------------------------
+
+  Performs exactly the same way as Knowles & Handy 1984 CPL
+
+  o alpha-beta strings
+      length:         25740
+  o size of the space 
+      determinant space:  165636900
+      spin-adapted space: 34763300
+
+  o single displacement lists (alpha)
+      length:        926640
+  o single displacement lists (beta)
+      length:        926640
+    * Integral transformation done. Elapsed time: 1.36
+
+     guess   0:   closed 11111111........     open ................    
+
+  === FCI iteration ===
+
+      0  0      -795.19365568     1.62e-06    317.25
+      1  0      -795.19368351     1.09e-07    319.77
+      2  0      -795.19368363     7.33e-09    278.52
+      3  0      -795.19368363     4.74e-10    291.62
+      4  0 *    -795.19368363     3.14e-11    241.04
+
+     * ci vector, state   0, <S^2> = 0.0000
+       22222222........     0.9999990916
+       - FCI and RDMs                           1743.03
+    * Integral transformation done. Elapsed time: 1.32
+
+     guess   0:   closed 11111111........     open ................    
+
+  === FCI iteration ===
+
+      0  0      -795.19365568     2.32e-06    336.25
+      1  0      -795.19371581     2.09e-07    355.41
+      2  0      -795.19371625     2.45e-08    302.67
+      3  0      -795.19371626     2.35e-09    307.84
+      4  0      -795.19371626     2.58e-10    297.12
+      5  0 *    -795.19371626     2.64e-11    237.55
+
+     * ci vector, state   0, <S^2> = -0.0000
+       22222222........    -0.9999979179
+       - FCI and RDMs                           2127.61
+    * Integral transformation done. Elapsed time: 1.58
+
+     guess   0:   closed 11111111........     open ................    
+
+  === FCI iteration ===
+
+      0  0      -795.19365566     6.89e-06    330.20
+      1  0      -795.19439137     4.64e-07    313.26
